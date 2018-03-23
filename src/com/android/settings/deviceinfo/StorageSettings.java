@@ -292,6 +292,9 @@ public class StorageSettings extends SettingsPreferenceFragment implements Index
             }
 
             if (vol.getType() == VolumeInfo.TYPE_PRIVATE) {
+                final List<VolumeInfo> volumes = mStorageManager.getVolumes();
+                long primaryPhysicalTotalSpace =
+                        PrivateStorageInfo.getPrimaryPhysicalTotalSpace(volumes);
                 final Bundle args = new Bundle();
                 args.putString(VolumeInfo.EXTRA_VOLUME_ID, vol.getId());
                 PrivateVolumeSettings.setVolumeSize(args, PrivateStorageInfo.getTotalSize(vol,
