@@ -86,6 +86,7 @@
     <uses-permission android:name="android.permission.PEERS_MAC_ADDRESS"/>
     <uses-permission android:name="android.permission.MANAGE_NOTIFICATIONS"/>
     <uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS" />
 
     <uses-permission android:name="cyanogenmod.permission.PROTECTED_APP" />
     <uses-permission android:name="cyanogenmod.permission.WRITE_SETTINGS" />
@@ -630,7 +631,8 @@
             android:label="@string/language_keyboard_settings_title"
             android:icon="@drawable/ic_settings_language"
             android:taskAffinity="com.android.settings"
-            android:parentActivityName="Settings">
+            android:parentActivityName="Settings"
+            android:configChanges="keyboard|keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.VOICE_LAUNCH" />
@@ -2496,11 +2498,11 @@
                 android:label="@string/crypt_keeper_encrypt_title">
             <intent-filter android:priority="1">
                 <action android:name="android.app.action.START_ENCRYPTION" />
-                <category android:name="android.intent.category.DEFAULT" /> />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" /> />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.CryptKeeperSettings" />
@@ -3199,6 +3201,16 @@
             <intent-filter>
                 <action android:name=".applications.LockPatternActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CarrierSelection"
+            android:label="@string/shortcut_carrier_title"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
         </activity>
 

@@ -212,6 +212,7 @@
   <string name="app_ops_allowed_count">已允許 <xliff:g id="count" example="2 times">%s</xliff:g></string>
   <string name="app_ops_ignored_count">已拒絕 <xliff:g id="count" example="2 times">%s</xliff:g></string>
   <string name="app_ops_both_count">已允許  <xliff:g id="count">%1$s</xliff:g>，已拒絕 <xliff:g id="count">%2$s</xliff:g></string>
+  <string name="app_ops_no_blockable_permissions">沒有權限可用於阻止</string>
   <!-- App ops menu options -->
   <string name="app_ops_show_user_apps">顯示使用者應用程式</string>
   <string name="app_ops_show_system_apps">顯示內建應用程式</string>
@@ -325,13 +326,13 @@
   <!-- [CHAR LIMIT=50] Like zen_mode_all_callers, but part of a list, so lower case if needed -->
   <string name="zen_mode_summary_all_callers">所有的來電</string>
   <!-- [CHAR LIMIT=50] Like zen_mode_selected_callers, but part of a list, so lower case if needed -->
-  <string name="zen_mode_summary_selected_callers">已選取的來電</string>
+  <string name="zen_mode_summary_selected_callers">已選擇的來電</string>
   <!-- [CHAR LIMIT=50] Like zen_mode_repeat_callers, but part of a list, so lower case if needed -->
   <string name="zen_mode_summary_repeat_callers">重複的來電</string>
   <!-- [CHAR LIMIT=50] Like zen_mode_all_messages, but part of a list, so lower case if needed -->
   <string name="zen_mode_summary_all_messages">所有的訊息</string>
   <!-- [CHAR LIMIT=50] Like zen_mode_selected_messages, but part of a list, so lower case if needed -->
-  <string name="zen_mode_summary_selected_messages">已選取的訊息</string>
+  <string name="zen_mode_summary_selected_messages">已選擇的訊息</string>
   <!-- Notification sound timeout -->
   <string name="app_notification_sound_timeout_title">通知音效之間的最短時間</string>
   <string name="app_notification_sound_timeout_summary_template">允許音效或震動每一次不超過 <xliff:g id="duration">%1$s</xliff:g></string>
@@ -368,7 +369,7 @@
   <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
   <string name="wifi_setting_countrycode_error">設定區碼時遇到問題。</string>
   <!-- Wake on plug -->
-  <string name="wake_when_plugged_or_unplugged_title">接上或移除電源時喚醒</string>
+  <string name="wake_when_plugged_or_unplugged_title">接上或拔除電源時喚醒</string>
   <string name="wake_when_plugged_or_unplugged_summary">接上或拔除電源時開啟螢幕</string>
   <!-- Heads-up -->
   <string name="heads_up_notifications_enabled_title">浮動通知</string>
@@ -405,8 +406,8 @@
   <string name="update_recovery_on_warning">注意: 啟用此功能後，您已安裝的 Recovery 將會被現在所執行之系統所包含的取代。\n\n您的 Recovery 將會隨著系統一起更新以確保與未來版本的相容性。\n\n您確定要啟用這個功能？</string>
   <string name="update_recovery_off_warning">警告：停用此功能後，您的 Recovery 將不會隨著系統一起更新。\n\n未來的系統更新可能無法使用過舊的或客製 Recovery 安裝。\n\n您確定要停用此功能？</string>
   <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">輕觸兩次即可休眠</string>
-  <string name="status_bar_double_tap_to_sleep_summary">輕觸兩次狀態列來關閉螢幕</string>
+  <string name="status_bar_double_tap_to_sleep_title">輕觸兩下即可休眠</string>
+  <string name="status_bar_double_tap_to_sleep_summary">輕觸兩下狀態列來關閉螢幕</string>
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>是<xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">已啟用</string>
   <string name="sim_disabled">已停用</string>
@@ -430,4 +431,9 @@
   <!-- IC Codes -->
   <string name="ic_code_model">型號：%1$s</string>
   <string name="ic_code_full">IC：%1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">網路業者</string>
+  <!-- Burn in protection -->
+  <string name="burnin_protection_title">螢幕烙印保護</string>
+  <string name="burnin_protection_summary">定時移動螢幕上的固定項目，以避免在螢幕上出現烙印</string>
 </resources>

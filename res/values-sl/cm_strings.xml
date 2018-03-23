@@ -49,7 +49,7 @@
   <!-- About phone screen, Device name -->
   <string name="device_name">Ime naprave</string>
   <!-- About phone screen, LineageOS Api Level -->
-  <string name="mod_api_level">Raven API-ja LineageOS</string>
+  <string name="mod_api_level">Raven LineageOS API-ja</string>
   <string name="mod_api_level_default">Neznano</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Datum izgradnje</string>
@@ -215,6 +215,7 @@
   <string name="app_ops_allowed_count">Dovoljeno <xliff:g id="count" example="2 times">%s </xliff:g></string>
   <string name="app_ops_ignored_count">Zavrnjeno <xliff:g id="count" example="2 times">%s </xliff:g></string>
   <string name="app_ops_both_count">Dovoljeno <xliff:g id="count">%1$s </xliff:g>, zavrnjeno <xliff:g id="count">%2$s </xliff:g></string>
+  <string name="app_ops_no_blockable_permissions">Na voljo ni dovoljenj za blokiranje</string>
   <!-- App ops menu options -->
   <string name="app_ops_show_user_apps">Prikaži uporabniške aplikacije</string>
   <string name="app_ops_show_system_apps">Prikaži vgrajene aplikacije</string>
@@ -306,8 +307,8 @@
   <string name="adb_notify">Obvesti o razhroščevanju</string>
   <string name="adb_notify_summary">Prikaži obvestilo. ko je omogočeno razhroščevanje na omrežju ali USB-ju</string>
   <!-- Android debugging over network -->
-  <string name="adb_over_network">ADB preko omrežja</string>
-  <string name="adb_over_network_summary">Omogoči razhroščevanje TCP/IP preko omrežnih vmesnikov (Wi\u2011Fi, omrežja USB). Ta nastavitev se ob ponovnem zagonu ponastavi</string>
+  <string name="adb_over_network">ADB prek omrežja</string>
+  <string name="adb_over_network_summary">Omogoči razhroščevanje TCP/IP prek omrežnih vmesnikov (Wi\u2011Fi, omrežij USB). Ta nastavitev se ob ponovnem zagonu ponastavi</string>
   <string name="adb_over_network_warning">OPOZRILO: Ko je ADB prek omrežja omogočen, je vaš telefon ranljiv za vdore iz vseh povezanih omrežij! \n\nTo značilnost uporabljajte samo, ko ste povezani na zaupanja vredna omrežja.\n\nAli res želite omogočiti to značilnost?</string>
   <!-- Hostname setting -->
   <string name="device_hostname">Gostiteljsko ime naprave</string>
@@ -398,7 +399,7 @@
   <!-- Summary for switch to block app data usage [CHAR LIMIT=NONE] -->
   <string name="data_usage_app_restrict_all_wifi_summary">Prepreči kakršno koli uporabo dostopa do podatkov preko omrežja Wi\u2011Fi</string>
   <!-- Volume link notification -->
-  <string name="volume_link_notification_title">Poveži glasnosti zvonj. in obv.</string>
+  <string name="volume_link_notification_title">Poveži glasnosti zvonjenja in obvestil</string>
   <!-- Launch music player when headset is connected -->
   <string name="headset_connect_player_title">Zaženi aplikacijo za glasbo</string>
   <string name="headset_connect_player_summary">Zaženi privzeto aplikacijo za glasbo, ko so priključene slušalke</string>
@@ -408,7 +409,7 @@
   <string name="update_recovery_on_warning">OBVESTILO: Ko je ta značilnost omogočena, bo nameščeno obnovitev zamenjala obnovitev vključena v trenutno različico izvajajočega se OS-a.\n\nObnovitev bo posodobljena skupaj z nadgradnjo vašega sistema, kar pomaga zagotoviti združljivost s prihodnjimi različicami.\n\nAli želite omogočiti to značilnost?</string>
   <string name="update_recovery_off_warning">OPOZORILO: Ko je ta značilnost onemogočena, nameščena obnovitev ne bo posodobljena z nadgradnjami OS-a.\n\nPrihodnje posodobitve OS-a se morda ne bodo namestile z zastarelimi ali prilagojenimi različicami obnovitve.\n\nAli želite onemogočiti to značilnost?</string>
   <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">Dvakrat tapnite za spanje</string>
+  <string name="status_bar_double_tap_to_sleep_title">Dvojni tap za spanje</string>
   <string name="status_bar_double_tap_to_sleep_summary">Dvakrat tapnite na vrstico stanja, da izklopite zaslon</string>
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> je <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">omogočeno</string>
@@ -433,4 +434,9 @@
   <!-- IC Codes -->
   <string name="ic_code_model">Model: %1$s</string>
   <string name="ic_code_full">IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">Omrežni operaterji</string>
+  <!-- Burn in protection -->
+  <string name="burnin_protection_title">Zaščita pred vtisnjenjem v zaslon</string>
+  <string name="burnin_protection_summary">Občasen premik predmetov, ki so trajno prikazani na zaslonu v izogib pretirani obrabi zaslona na tem področju</string>
 </resources>

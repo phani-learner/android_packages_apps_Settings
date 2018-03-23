@@ -213,11 +213,12 @@
   <string name="app_ops_allowed_count">Permitido <xliff:g id="count" example="2 times">%s</xliff:g></string>
   <string name="app_ops_ignored_count">Negado <xliff:g id="count" example="2 times">%s</xliff:g></string>
   <string name="app_ops_both_count">Permitido <xliff:g id="count">%1$s</xliff:g>, negado <xliff:g id="count">%2$s</xliff:g></string>
+  <string name="app_ops_no_blockable_permissions">Não há permissões disponíveis para bloquear</string>
   <!-- App ops menu options -->
   <string name="app_ops_show_user_apps">Mostrar aplicações do utilizador</string>
   <string name="app_ops_show_system_apps">Mostrar aplicações de sistema</string>
-  <string name="app_ops_reset_counters">Restaurar os contadores de permitir/negar</string>
-  <string name="app_ops_reset_confirm_title">Confirmar restauração dos contadores</string>
+  <string name="app_ops_reset_counters">Repor os contadores de permitir/negar</string>
+  <string name="app_ops_reset_confirm_title">Confirmar reposição dos contadores</string>
   <string name="app_ops_reset_confirm_mesg">Tem a certeza que quer reiniciar os contadores?</string>
   <string name="ok">OK</string>
   <!-- Volume settings - Volume adjustment sound -->
@@ -225,7 +226,7 @@
   <!-- Vibrator intensity -->
   <string name="vibrator_intensity_title">Intensidade de vibração</string>
   <string name="vibrator_intensity_dialog_warning">Valores superiores a %1$d%% não são recomendados</string>
-  <string name="vibrator_intensity_dialog_reset">Restaurar</string>
+  <string name="vibrator_intensity_dialog_reset">Repor</string>
   <!-- Sizes for pattern lockscreen -->
   <string name="lock_settings_picker_pattern_size_message">Escolha um tamanho para o padrão</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -288,7 +289,7 @@
   <string name="touchscreen_hovering_summary">Permite que flutue o dedo sobre o ecrã como um rato nos navegadores de internet, áreas de trabalho remotas, etc</string>
   <!-- Whether to display IME switcher notifcation -->
   <string name="ime_switcher_notify">Ícone de seleção</string>
-  <string name="ime_switcher_notify_summary">Mostrar ícone de seleção de método de entrada</string>
+  <string name="ime_switcher_notify_summary">Mostrar ícone de seleção de método de introdução</string>
   <!-- [CHAR LIMIT=100] Notification Importance slider: very low importance level description -->
   <string name="notification_importance_very_low">Sem interrupção do ecrã inteiro, apresentação rápida, som ou vibração. Mostrar no fundo da lista de notificações. Ocultar do ecrã de bloqueio.</string>
   <!-- Stylus Icon -->
@@ -372,7 +373,7 @@
   <string name="wake_when_plugged_or_unplugged_title">Ligar ecrã ao detetar carregador</string>
   <string name="wake_when_plugged_or_unplugged_summary">Ativar o ecrã quando conectar ou desconectar uma fonte de energia</string>
   <!-- Heads-up -->
-  <string name="heads_up_notifications_enabled_title">Notificação pop-up</string>
+  <string name="heads_up_notifications_enabled_title">Notificações flutuantes</string>
   <string name="heads_up_notifications_enabled_summary">Mostrar notificações prioritárias numa pequena janela flutuante</string>
   <!-- Tethering & portable hotspot other category -->
   <string name="tethering_other_category_text">Outro</string>
@@ -415,7 +416,7 @@
   <string name="sim_enabler_need_disable_sim">O cartão SIM será desativado. Quer continuar?</string>
   <string name="sim_enabler_will_disable_sim_title">Atenção</string>
   <string name="sim_enabler_need_switch_data_service">Este cartão SIM será desativado e o cartão SIM <xliff:g id="slotid">%1$s</xliff:g> será usado para os serviços de dados. Tem a certeza que deseja continuar?</string>
-  <string name="sim_enabler_airplane_on">Não é possível executar a operação enquanto o modo de voo estiver ativado.</string>
+  <string name="sim_enabler_airplane_on">Não é possível executar a operação enquanto o modo de avião estiver ativado.</string>
   <string name="sim_enabler_in_call">Não é possível executar a operação enquanto estiver numa chamada.</string>
   <string name="sim_enabler_both_inactive">Não é possível desativar todos os cartões SIM</string>
   <string name="sim_enabler_enabling">A ativar\u2026</string>
@@ -431,4 +432,9 @@
   <!-- IC Codes -->
   <string name="ic_code_model">Modelo: %1$s</string>
   <string name="ic_code_full">IC: %1$s</string>
+  <!-- Label for settings shortcut: carrier selection -->
+  <string name="shortcut_carrier_title">Operadores de rede</string>
+  <!-- Burn in protection -->
+  <string name="burnin_protection_title">Proteção contra ecrã queimado</string>
+  <string name="burnin_protection_summary">Mover periodicamente itens que são permanentemente mostrados no ecrã para evitar um gasto excessivo do ecrã nessa área</string>
 </resources>
