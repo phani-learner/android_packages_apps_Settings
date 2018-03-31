@@ -38,6 +38,18 @@
             android:title="@string/advanced_reboot_title"
             android:summary="@string/advanced_reboot_summary" />
 
+ <!-- Wakelock blocker -->
+    <PreferenceScreen
+            android:key="wakelock_blocker"
+            android:fragment="com.android.settings.WakelockBlockerFragment"
+            android:title="@string/wakelock_blocker_title"
+            />
+<!-- Alarm Blocker -->
+    <PreferenceScreen
+            android:key="alarm_blocker"
+            android:fragment="com.android.settings.AlarmBlocker"
+            android:title="@string/alarm_blocker"
+            />
     <PreferenceScreen
             android:key="local_backup_password"
             android:title="@string/local_backup_password_title"

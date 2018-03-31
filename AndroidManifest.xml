@@ -432,7 +432,8 @@
                 android:configChanges="orientation|keyboardHidden|screenSize"
                 android:parentActivityName="Settings">
         </activity>
-
+	<activity android:name="com.android.settings.WakelockBlockerFragment" />
+	<activity android:name="com.android.settings.AlarmBlocker" />
         <activity android:name="Settings$BluetoothSettingsActivity"
                 android:label="@string/bluetooth_settings_title"
                 android:icon="@drawable/ic_settings_bluetooth"
